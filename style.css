@@ -1,3 +1,45 @@
+body, html {
+    height: 100%;
+}
+
 h1.cursive {
   font-family: 'Shadows Into Light', cursive;
 }
+
+.left {
+
+}
+
+/* --------------------
+ * Column Block
+ * -------------------*/
+
+.columns-block {
+    flex-wrap         : wrap;
+    display           : -webkit-box;
+    display           : -moz-box;
+    display           : -ms-flexbox;
+    display           : -webkit-flex;
+    display           : flex;
+    -webkit-flex-flow : row wrap;
+    justify-content   : space-around;
+    }
+
+.blocks {
+    box-sizing : border-box;
+    }
+
+.left-col-block {
+    width      : 50%;
+    text-align : center;
+    overflow   : hidden;
+    position   : fixed;
+    left       : 0;
+    }
+
+.right-col-block {
+    width      : 50%;
+    position   : absolute;
+    right      : 0;
+    box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
+    }
